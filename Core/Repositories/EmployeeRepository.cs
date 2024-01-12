@@ -12,7 +12,7 @@ public class EmployeeRepository : IEmployeeRepository{
    private static string connectionString = string.Empty;
     static EmployeeRepository()
     {
-        connectionString = "server=localhost;port=3306;user=root;password=root;database=transflower";
+        connectionString = "server=localhost;port=3306;user=root;password=password;database=transflower";
     }
 
     public  List<Employee> GetAllEmployees()

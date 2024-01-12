@@ -1,4 +1,7 @@
-create database transflower
+
+drop database if exists transflower;
+create database transflower;
+
 use  transflower;
 
 create table departments(id int not null primary key auto_increment,
